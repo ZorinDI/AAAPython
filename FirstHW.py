@@ -11,7 +11,7 @@ def step1():
 
     if options[option]:
         return step2_umbrella()
-    return step2_no_umbrella()
+    return step2_no_umbrella()pgit commit -m "first commit"
 
 
 if __name__ == '__main__':
