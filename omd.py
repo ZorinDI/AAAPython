@@ -12,7 +12,6 @@ def step2_no_umbrella():
         'Утка-маляр пошла в бар без зонтика. '
         'Когда пошёл дождь, она не расстроилась,'
         'ведь утки не боятся воды и не промокают. '
-
     )
     return step3_exit(False)
 
@@ -30,6 +29,7 @@ def step1():
     if options[option]:
         return step2_umbrella()
     return step2_no_umbrella()
+
 
 def step3_exit(ending):
     if ending:
